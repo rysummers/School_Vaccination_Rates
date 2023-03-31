@@ -4,7 +4,24 @@ This repository contains the R code and technical report for a project aimed at 
 
 ## Data Source
 
-The data used in this project was obtained from the Centers for Disease Control and Prevention.
+Three datasets were used for this anaysis:
+* US Vaccination Rates - time series data from the World Health Organization reporting vaccination rats in the US for five common vaccines.
+* Schools Reporting Status - a list of California kindergartens and whether they reported vaccination data to the state in 2013.
+* Districts - a sample of California public school districts from the 2013 data collection, along with specific numbers and percentages for each district.
+  - DistrictName    : Name of the district
+  - WithoutDTP      : Percentage of students without the DTP vaccine
+  - WithoutPolio    : Percentage of students without the Polio vaccine
+  - WithoutMMR      : Percentage of students without the MMR vaccine
+  - WithoutHepB     : Percentage of students without the Hepatitis B vaccine
+  - PctUpToDate     : Percentage of all enrolled students with completely up-to-date vaccines
+  - DistrictComplete: Boolean indicating whether or not the district’s reporting was complete
+  - PctBeliefExempt : Percentage of all enrolled students with belief exceptions
+  - PctChildPoverty : Percentage of children in the district living below the poverty line
+  - PctFreeMeal     : Percentage of children in the district eligible for free student meals
+  - PctFamilyPoverty: Percentage of families in the district living below the poverty line
+  - Enrolled        : Total number of enrolled students in the district
+  - TotalSchools    : Total number of different schools in the district
+
 
 ## Tools and Technologies
 
