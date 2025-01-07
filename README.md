@@ -43,4 +43,3 @@ If you find any issues or have suggestions for improving this project, please su
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-I hope this helps you create your README.md file for your project. Feel free to customize it to best suit your project's needs.
